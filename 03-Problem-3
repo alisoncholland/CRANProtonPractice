@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------------
+# Proton Practice - Copyright © 2017, Alison C. Holland, All rights reserved. 
+# ---------------------------------------------------------------------------
+
+# Problem 3
+# ---------
+
+# server Pietraszko logs into the Proton server most often
+
+# find the login of Pietraszko
+filter(employees, surname == "Pietraszko")
+
+# check out the logs
+head(logs)
+
+# use group and summarise to find the host most commonly logged in
+slapHost <- summarise(group_by(filter(logs, login == "slap"), host), count = (n()))
+
+# print highest host count
+arrange(slapHost, desc(count))
+print(filter(slapHost, row_number() == 1))
