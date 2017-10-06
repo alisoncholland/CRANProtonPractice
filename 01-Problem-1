@@ -1,0 +1,16 @@
+# Problem 1
+# ---------
+
+# Find the login of John Insecure
+data.frame(employees)
+
+# Either
+employees %>% 
+  filter(name == "John") %>%
+  filter(surname == "Insecure")
+
+# Or
+filter(employees, name == "John", surname == "Insecure")
+
+# login
+proton(action = "login", login = "johnins")
