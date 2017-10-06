@@ -5,21 +5,11 @@
 
 # ${1:CRANProtonPractice}
 
-## First, if you're not sure what a meta-analysis is, or if the bullet points below make no sense, you can find everything you need here: 
-## https://alisonhollandblog.wordpress.com/2016/08/30/my-meta-analysis-code-thank-you-r/
-
-## This meta-analysis code will do the following:
-
-## 1. Convert effect sizes (t-statistics & F-statistics) into correlation coefficients r
-## 2. Aggregate effect sizes per study
-## 3. Calculate the summary (overall) effect size and heterogeneity
-## 4. Check for publication bias and outliers in your data
-## 5. Conduct a moderator analysis to see which factors influence the summary effect size
-
+## My code for 'The Proton Game'. The Proton Game is a console-based data-crunching game for younger and older data scientists. This game is linked with the "Pietraszko's Cave" story available at http://biecek.pl/BetaBit/Warsaw. It's a part of Beta and Bit series. You will find more about the Beta and Bit series at http://biecek.pl/BetaBit.
 
 # Installation
 
-## I used the free statistical software programme R (https://www.r-project.org/) to write and analyse my data. Once R is up and running, download the CRAN packages MAc (https://cran.r-project.org/web/packages/MAc/index.html), metafor (https://cran.r-project.org/web/packages/metafor/index.html), and dplyr https://cran.r-project.org/web/packages/dplyr/index.html.
+## I used the free statistical software programme R (https://www.r-project.org/). Once R is up and running, download the CRAN package dplyr https://cran.r-project.org/web/packages/dplyr/index.html.
 
 
 # Usage
@@ -29,7 +19,7 @@
 
 # Credits & License
 
-## Alison C. Holland, 2016
+## Alison C. Holland, 2017
 
 ]]></content>
   <tabTrigger>readme</tabTrigger>
