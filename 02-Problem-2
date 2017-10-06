@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------------------
+# Proton Practice - Copyright © 2017, Alison C. Holland, All rights reserved. 
+# ---------------------------------------------------------------------------
+
+# Problem 2
+# ---------
+
+# check out data
+data.frame(top1000passwords)
+head(top1000passwords)
+tail(top1000passwords)
+
+# match password pattern
+for (i in top1000passwords){
+  
+  # proton command
+  x <- proton(action = "login", login = "johnins", password = i) # proton command
+  
+  # grep searches for matches to the output (i.e. "Success" in "Success! User is logged in!") pattern in x
+  if(length(grep(pattern = "Success", x))){ 
+    print(paste("Password:", i))
+  }
+}
