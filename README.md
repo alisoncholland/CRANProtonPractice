@@ -5,7 +5,9 @@
 
 # ${1:CRANProtonPractice}
 
-## My code for 'The Proton Game'. The Proton Game is a console-based data-crunching game for younger and older data scientists. This game is linked with the "Pietraszko's Cave" story available at http://biecek.pl/BetaBit/Warsaw. It's a part of Beta and Bit series. You will find more about the Beta and Bit series at http://biecek.pl/BetaBit.
+## My code for 'The Proton Game'. The Proton Game is a console-based data-crunching game for younger and older data scientists. 
+## https://cran.r-project.org/web/packages/proton/proton.pdf
+## This game is linked with the "Pietraszko's Cave" story available at http://biecek.pl/BetaBit/Warsaw. It's a part of Beta and Bit series. You will find more about the Beta and Bit series at http://biecek.pl/BetaBit.
 
 # Installation
 
