@@ -1,0 +1,13 @@
+# ---------------------------------------------------------------------------
+# Proton Practice - Copyright © 2017, Alison C. Holland, All rights reserved. 
+# ---------------------------------------------------------------------------
+
+# load package 
+#install.packages("proton")
+#install.packages("dplyr")
+
+library(proton)
+library(dplyr)
+
+# start adventure
+proton()
